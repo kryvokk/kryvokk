@@ -1,4 +1,4 @@
-<h1 align="center">Привет, я kryvokk 👋</h1>
+<h1 align="center">Hi, I'm kryvokk 👋</h1>
 <h3 align="center">Backend Developer • Python & C++ • Qt • Telegram Bots</h3>
 
 <p align="center">
@@ -7,18 +7,18 @@
 
 ---
 
-### 🚀 Обо мне
+### 🚀 About me
 
-- 🔭 Разрабатываю **backend** на **Python** и **C++**
-- 🖥 Пишу десктоп-приложения на **Qt**
-- 🤖 Создаю **Telegram-ботов**
-- 🐘 Работаю с базами данных **PostgreSQL**
-- 🐳 Использую **Docker** и **Kubernetes** для деплоя
-- 🌱 Постоянно изучаю новое в разработке и системах
+- ⚙️ I build **backend** systems in **Python** and **C++**
+- 🖱 I develop desktop applications with **Qt**
+- 📡 I create **Telegram bots**
+- 🗄 I work with **PostgreSQL** databases
+- 📦 I use **Docker** and **Kubernetes** for deployment
+- 📈 Always learning new things in development and systems
 
 ---
 
-### 🛠 Стек технологий
+### 🛠 Tech Stack
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
@@ -34,7 +34,7 @@
 
 ---
 
-### 📊 GitHub статистика
+### 📊 GitHub Stats
 
 <p align="center">
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=kryvokk&show_icons=true&theme=radical&hide_border=true&count_private=true"/>
@@ -45,53 +45,15 @@
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=kryvokk&theme=radical&hide_border=true" alt="streak stats"/>
 </p>
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kryvokk&theme=react-dark&hide_border=true&area=true" alt="activity graph"/>
-</p>
-
 ---
 
-### 🐍 Contribution Snake
+### 📈 Monthly Coding Activity
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/kryvokk/kryvokk/output/github-contribution-grid-snake.svg" alt="snake animation"/>
+  <img src="./activity-chart.svg" alt="monthly coding activity chart" width="700"/>
 </p>
 
-> Чтобы «змейка» заработала — нужно один раз настроить GitHub Action `Platane/snk` в репозитории `kryvokk/kryvokk` (workflow ниже).
-
-<details>
-<summary>⚙️ workflow для змейки (.github/workflows/snake.yml)</summary>
-
-```yaml
-name: generate snake
-
-on:
-  schedule:
-    - cron: "0 */6 * * *"
-  workflow_dispatch: {}
-  push:
-    branches: [ main ]
-
-jobs:
-  generate:
-    permissions:
-      contents: write
-    runs-on: ubuntu-latest
-    steps:
-      - uses: Platane/snk@v3
-        with:
-          github_user_name: kryvokk
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-      - uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
-</details>
+> Custom SVG chart — edit `activity-chart.svg` in the repo to update the values/points and it will render right here.
 
 ---
 
