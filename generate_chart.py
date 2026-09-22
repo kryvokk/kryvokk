@@ -108,10 +108,10 @@ def build_svg(monthly):
     </g>
     <line x1="{x0}" y1="{y_top}" x2="{x0}" y2="{y_bottom}" stroke="#8b949e" stroke-width="1.5"/>
     <line x1="{x0}" y1="{y_bottom}" x2="{x1}" y2="{y_bottom}" stroke="#8b949e" stroke-width="1.5"/>
-    <polyline fill="none" stroke="#a78bfa" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round" points="
+    <polyline fill="none" stroke="#00FF9C" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round" points="
         {points}
       "/>
-    <g fill="#a78bfa">
+    <g fill="#00FF9C">
 {circles}
     </g>
     <g fill="#8b949e" font-size="12" text-anchor="middle">

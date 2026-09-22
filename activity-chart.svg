@@ -21,10 +21,10 @@
     </g>
     <line x1="100" y1="60" x2="100" y2="310" stroke="#8b949e" stroke-width="1.5"/>
     <line x1="100" y1="310" x2="705" y2="310" stroke="#8b949e" stroke-width="1.5"/>
-    <polyline fill="none" stroke="#a78bfa" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round" points="
+    <polyline fill="none" stroke="#00FF9C" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round" points="
         100.0,310.0 155.0,310.0 210.0,310.0 265.0,310.0 320.0,310.0 375.0,310.0 430.0,310.0 485.0,310.0 540.0,265.0 595.0,310.0 650.0,310.0 705.0,310.0
       "/>
-    <g fill="#a78bfa">
+    <g fill="#00FF9C">
       <circle cx="100.0" cy="310.0" r="5"/>
       <circle cx="155.0" cy="310.0" r="5"/>
       <circle cx="210.0" cy="310.0" r="5"/>
